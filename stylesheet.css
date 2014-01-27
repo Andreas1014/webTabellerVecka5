@@ -1,0 +1,34 @@
+
+td, th 
+{
+	border: 1px solid darkorange;
+	font-family: Verdana, Arial, sans-serif; 
+	*border-collapse: collapse;
+	border-spacing: 0;
+}
+
+thead
+{
+	text-shadow: maroon 1px 1px 1px;
+}
+
+tr
+{
+	background-color:gold;
+
+	-webkit-transition: background-color 0.75s;
+	   -moz-transition: background-color 0.75s;
+		-ms-transition: background-color 0.75s;
+		 -o-transition: background-color 0.75s;
+	transition: background-color 0.75s;
+}
+
+tr:hover
+{
+	background-color: goldenrod;
+}
+
+#title
+{
+
+}
